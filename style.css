@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+.container {
+    width: 750px;
+    display: flex;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.local {
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.article {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 10px;
+    
+}
+
+.text {
+    font-size: 13px;
+    color: hsl(214, 17%, 51%);
+    margin-bottom: 15px;
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space {
+    display: flex;
+    gap: 18px;
+}
+
+.back-share {
+    background-color: hsl(210, 46%, 95%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.share {
+    width: 15px;
+    height: 15px;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.name {
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.date {
+    color: hsl(212, 23%, 69%);
+    font-size: 13px;
+}
+
+.shares {
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 80px;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding-left: 10px;
+}
+
+.icon {
+    width: 25px;
+    margin-left: 20px;
+}
+
+.text-share {
+    width: 35px;
+    letter-spacing: 5px;
+    color: hsl(214, 17%, 51%);
+    margin: 0px 30px;
+}
+
+.back-shares {
+    margin-right: 50px;
+    background-color: hsl(214, 17%, 51%);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow path{
+    fill: white;
+    width: 20px;
+    height: 20px;
+}
+
+.share-desk {
+
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    background-color: hsl(217, 19%, 35%);
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 99;
+    right: -40px;
+    bottom: 98px;
+}
+
+.icon-desk{
+    width: 15px;
+    height: 15px;
+}
+
+.text-desk {
+    font-size: 10px;
+    color: hsl(212, 23%, 69%);
+    letter-spacing: 5px;
+}
+
+.box {
+    position: absolute;
+    bottom: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: hsl(217, 19%, 35%);
+    transform: rotate(45deg);
+}
+
+.active-desk{
+    display: flex ;
+}
+
+.active-mobile{
+    display: none ;
+}

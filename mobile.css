@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }   
+
+    .local {
+        width: 400px;
+        height: 250px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .shares {
+        position: absolute;
+        bottom: 0;
+    }
+    .active-desk{
+        display: none ;
+    }
+    .active-mobile{
+        display: flex ;
+    }
+}
